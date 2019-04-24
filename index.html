@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<head>
+	<title>Sudoku Solver</title>
+</head>
+<body>
+	<table>
+  <caption>Sudoku Solver</caption>
+  <colgroup><col><col><col>
+  <colgroup><col><col><col>
+  <colgroup><col><col><col>
+  <tbody>
+   <tr> <td><input type="text" maxlength="1" value="1"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="3"> <td><input type="text" maxlength="1" value="6"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="4"> <td><input type="text" maxlength="1" value="7"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="9">
+   <tr> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="2"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="9"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="1"> <td><input type="text" maxlength="1" value="">
+   <tr> <td><input type="text" maxlength="1" value="7"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="6">
+  <tbody>
+   <tr> <td><input type="text" maxlength="1" value="2"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="4"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="3"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="9"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="8">
+   <tr> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">
+   <tr> <td><input type="text" maxlength="1" value="5"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="9"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="7"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="1">
+  <tbody>
+   <tr> <td><input type="text" maxlength="1" value="6"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="5"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="2">
+   <tr> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="7"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">
+   <tr> <td><input type="text" maxlength="1" value="9"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="8"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="2"> <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="">  <td><input type="text" maxlength="1" value="5">
+</table>
+
+<button type="button" onclick="main()">Solve!</button>
+
+<button type="button" onclick="clearBoard()">Clear</button>
+<div id="output"></div>
+</body>
+<script type="text/javascript" src="sudokusolver.js"></script>
+</html>
